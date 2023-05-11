@@ -1,0 +1,10 @@
+https://github.com/KaptainCS3/Crypto_Explore.git
+
+      <div className="flex items-start sm:h-64 w-full flex-col justify-between mt-4 md:h-64 lg:flex-row h-full">
+            <Link to="/" className="hover:text-[#16D5FF] cursor-pointer">Home</Link>
+            <Link to="/aboutus" className="hover:text-[#16D5FF] cursor-pointer">About</Link>
+            <Link to="service" className="hover:text-[#16D5FF] cursor-pointer">Service</Link>
+            <Link to="roadmap" className="hover:text-[#16D5FF] cursor-pointer">Roadmap</Link>
+            <Link to="" className="hover:text-[#16D5FF] cursor-pointer">Pages</Link>
+            <Link to="" className="hover:text-[#16D5FF] cursor-pointer">Contact</Link>
+            </div>
