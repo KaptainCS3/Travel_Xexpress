@@ -5,8 +5,9 @@
 .hero{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
-    font-size: calc(1.375rem + 1.2vw);
+    /* text-transform: uppercase; */
+    font-size: calc(1.275rem + 1.5vw);
+    line-height: 1.75rem;
 }
 .shadow{
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
