@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import BookTravel from './components/BookTravel'
 import Tourist from './components/Tourist'
 import About from './components/About'
+import Budget from './components/Budget'
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
         <BookTravel />
         <Tourist />
         <About />
+        <Budget />
       </div>
     </>
   );
