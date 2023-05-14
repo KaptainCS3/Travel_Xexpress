@@ -8,6 +8,7 @@ import About from './components/About'
 import Budget from './components/Budget'
 import Explore from './components/Explore'
 import Service from './components/Service'
+import PackageTour from './components/Package'
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
         <Budget />
         <Explore />
         <Service />
+        <PackageTour />
       </div>
     </>
   );
