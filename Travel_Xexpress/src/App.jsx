@@ -6,16 +6,18 @@ import BookTravel from './components/BookTravel'
 import Tourist from './components/Tourist'
 import About from './components/About'
 import Budget from './components/Budget'
+import Explore from './components/Explore'
 const App = () => {
   return (
     <>
-      <div className="bg-[#F3F3F3]">
+      <div className="bg-[#F3F3F3] font">
         <Nav />
         <Hero />
         <BookTravel />
         <Tourist />
         <About />
         <Budget />
+        <Explore />
       </div>
     </>
   );
