@@ -12,3 +12,9 @@
 .shadow{
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
+.font{
+   font-family: "Poppins", sans-serif; 
+}
+.line_h{
+    line-height: 1.5
+}
