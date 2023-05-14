@@ -7,6 +7,7 @@ import Tourist from './components/Tourist'
 import About from './components/About'
 import Budget from './components/Budget'
 import Explore from './components/Explore'
+import Service from './components/Service'
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
         <About />
         <Budget />
         <Explore />
+        <Service />
       </div>
     </>
   );
