@@ -47,9 +47,11 @@ const Service = () => {
               return (
                 <div
                   key={item.id}
-                  className="px-7 py-[2.5rem] mb-8 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white"
+                  className="px-7 py-[2.5rem] mb-8 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white srv transition-all duration-500 delay-0 ease-linear"
                 >
-                  <div className="border-[0.15rem] p-4 border-[#7AB730] hover:border-transparent hover:bg-[#71AB30] hover:text-white text-[#7AB730]">
+                  {/* hover:border-transparent hover:bg-[#71AB30] hover:text-white
+                   */}
+                  <div className="border-[0.15rem] p-4 border-[#7AB730] text-[#7AB730]  srv_con transition-all duration-500 delay-0 ease-linear">
                     <FontAwesomeIcon
                       icon={item.src}
                       className="text-[2.5rem]"
