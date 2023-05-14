@@ -1,5 +1,4 @@
 import React from "react";
-import budget from "../../budget";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMoneyCheckAlt,
@@ -7,20 +6,47 @@ import {
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 const Budget = () => {
+  const faM = faMoneyCheckAlt;
+  const faA = faAward;
+  const faG = faGlobe;
+  const budget = [
+    {
+      id: 1,
+      src: faM,
+      title: "Competitive Pricing",
+      description:
+        "Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea",
+    },
+    {
+      id: 2,
+      src: faA,
+      title: "Best Services",
+      description:
+        "Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea",
+    },
+    {
+      id: 3,
+      src: faG,
+      title: "Worldwide Coverage",
+      description:
+        "Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea",
+    },
+  ];
   return (
     <>
       <section className="m-8 py-8">
         {budget.map((items) => {
           return (
-            <div className="flex mb-8 justify-between">
-              <div className="p-[3.5rem] mr-4 bg-[#7AB730]">
+            <div className="flex mb-5 justify-between">
+              <div className="w-[100px] h-[100px] px-[2.5rem] py-8 mr-4 bg-[#7AB730] flex justify-center items-center">
                 <FontAwesomeIcon
-                  icon={faAward === items.src ? null : faAward} className="text-3xl"
+                  icon={items.src}
+                  className="text-[2rem] text-white"
                 />
               </div>
               <div>
                 <h3 className="text-xl font-medium mb-2">{items.title}</h3>
-                <p className="text-[#656565] text-[1rem] text-left">
+                <p className="text-[#656565] text-[1rem] text-left font-normal font line_h">
                   {items.description}
                 </p>
               </div>
