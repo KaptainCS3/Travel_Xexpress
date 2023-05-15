@@ -26,3 +26,10 @@
     background: #71AB30;
     color: white;
 }
+
+.bg_img{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url('../public/assets/carousel-1.jpg'), no-repeat center center;
+    background-size: cover;
+    /* height: 100vh; */
+}
