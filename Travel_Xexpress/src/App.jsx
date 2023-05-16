@@ -10,6 +10,7 @@ import Explore from './components/Explore'
 import Service from './components/Service'
 import PackageTour from './components/Package'
 import Offer from './components/Offer'
+import Guide from './components/Guide'
 const App = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const App = () => {
         <Service />
         <PackageTour />
         <Offer />
+        <Guide />
       </div>
     </>
   );
