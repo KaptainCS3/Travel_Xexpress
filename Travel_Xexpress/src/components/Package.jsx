@@ -156,7 +156,7 @@ const Package = () => {
                         <small className="text-[#656565]">{item.numBook}</small>
                       </div>
                     </div>
-                    <h3 className="text-[#212121] text-xl font-medium mb-4">
+                    <h3 className="text-[#212121] text-xl font-medium mb-4 hover:text-[#7AB730]">
                       {item.description}
                     </h3>
                     <div className="flex justify-between border-t-[0.05rem] pt-4">
