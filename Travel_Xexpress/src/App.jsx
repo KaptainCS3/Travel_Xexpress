@@ -11,7 +11,9 @@ import Service from "./components/Service";
 import PackageTour from "./components/Package";
 import Offer from "./components/Offer";
 import Guide from "./components/Guide";
+import Testimonial from "./components/Testimonial";
 import BlogPost from "./components/BlogPost";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -27,7 +29,9 @@ const App = () => {
         <PackageTour />
         <Offer />
         <Guide />
+        <Testimonial />
         <BlogPost />
+        <Footer />
       </div>
     </>
   );
