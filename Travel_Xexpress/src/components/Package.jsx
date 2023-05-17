@@ -156,7 +156,7 @@ const Package = () => {
                         <small className="text-[#656565]">{item.numBook}</small>
                       </div>
                     </div>
-                    <h3 className="text-[#212121] text-xl font-medium mb-4 hover:text-[#7AB730]">
+                    <h3 className="text-[#212121] text-xl font-medium mb-4 hover:text-[#5F8F25]">
                       {item.description}
                     </h3>
                     <div className="flex justify-between border-t-[0.05rem] pt-4">
@@ -170,7 +170,9 @@ const Package = () => {
                         </p>
                         <small className="">{item.point}</small>
                       </div>
-                      <h5 className="text-xl text-[#212121] font-medium">{item.price}</h5>
+                      <h5 className="text-xl text-[#212121] font-medium">
+                        {item.price}
+                      </h5>
                     </div>
                   </div>
                 </div>
