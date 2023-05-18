@@ -12,6 +12,9 @@
 .shadow{
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
+.border_{
+    border-top: 1px solid #ffffff20;
+}
 .font{
    font-family: "Poppins", sans-serif; 
 }
