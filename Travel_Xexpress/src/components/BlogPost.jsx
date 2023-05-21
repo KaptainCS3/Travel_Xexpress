@@ -1,5 +1,5 @@
 import React from "react";
-import blog from "../../../blog";
+import blog from "../../blog";
 const BlogPost = () => {
   return (
     <>
