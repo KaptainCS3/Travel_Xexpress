@@ -120,7 +120,7 @@ const Package = () => {
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
             Tours & Travel Services
           </h2>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer sm:max-w-[500px] md:flex">
             {travelPackage.map((item) => {
               return (
                 <div
