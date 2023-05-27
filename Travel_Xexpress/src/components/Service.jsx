@@ -42,12 +42,12 @@ const Service = () => {
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
             Tours & Travel Services
           </h2>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer sm:max-w-[500px] md:flex flex-wrap justify-between">
             {tour.map((item) => {
               return (
                 <div
                   key={item.id}
-                  className="px-7 py-[2.5rem] mb-8 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white srv transition-all duration-500 delay-0 ease-linear"
+                  className="px-7 py-[2.5rem] mb-8 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white srv transition-all duration-500 delay-0 ease-linear md:max-w-[380px]"
                 >
                   {/* hover:border-transparent hover:bg-[#71AB30] hover:text-white
                    */}

@@ -11,7 +11,7 @@ const Explore = () => {
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
             Explore Top Destination
           </h2>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer md:flex flex-wrap justify-between lg:flex lg:flex-wrap lg:justify-between">
             {explore.map((item) => {
               return (
                 <div
