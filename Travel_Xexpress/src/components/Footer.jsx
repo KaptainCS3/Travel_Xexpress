@@ -152,7 +152,7 @@ const Footer = () => {
                 <div className="w-full">
                   <input
                     type="email"
-                    className="w-3/4 bg-white outline-none p-3 form text-[#999] focus:shadow-xl"
+                    className="w-3/4 bg-white outline-none p-3 form text-[#999]"
                     name="email"
                     placeholder="Your Email"
                     // value={contactUs.email}
@@ -166,7 +166,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center flex-col pt-4 border_">
+        <div className="flex justify-center items-center flex-col pt-4 pb-8 border_">
           <p className="text-[#ffffff50] py-3">
             Copyright © <span className="text-[#7AB730]">Domain.</span> All
             Rights Reserved.
