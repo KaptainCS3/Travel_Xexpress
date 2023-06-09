@@ -1,3 +1,4 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -8,10 +9,9 @@ import {
 import {
   faAngleRight,
   faMapMarkerAlt,
+  faPhone,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -30,28 +30,24 @@ const Footer = () => {
               follow us
             </h3>
             <div className="flex">
-              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2">
+              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2 text-[#7AB730] text-[1.2rem] hover:bg-[#7AB730] hover:text-white cursor-pointer">
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="text-[#7AB730] text-[0.9rem]"
                 />
               </span>
-              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2">
+              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2 text-[#7AB730] text-[1.2rem] hover:bg-[#7AB730] hover:text-white cursor-pointer">
                 <FontAwesomeIcon
                   icon={faFacebookF}
-                  className="text-[#7AB730] text-[0.9rem]"
                 />
               </span>
-              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2">
+              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col mr-2 text-[#7AB730] text-[1.2rem] hover:bg-[#7AB730] hover:text-white cursor-pointer">
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
-                  className="text-[#7AB730] text-[0.9rem]"
                 />
               </span>
-              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col">
+              <span className="border border-[#7AB730] w-9 h-9 flex justify-center items-center flex-col text-[#7AB730] text-[1.2rem] hover:bg-[#7AB730] hover:text-white cursor-pointer">
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  className="text-[#7AB730] text-[0.9rem]"
                 />
               </span>
             </div>
