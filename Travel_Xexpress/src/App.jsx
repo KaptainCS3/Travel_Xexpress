@@ -3,8 +3,7 @@ import Nav from "./components/Nav";
 import "./App.css";
 import Hero from "./components/Hero";
 import BookTravel from "./components/BookTravel";
-import Tourist from "./components/Tourist";
-import About from "./components/About";
+import AboutMe from "./components/AboutMe";
 import Budget from "./components/Budget";
 import Explore from "./components/Explore";
 import Service from "./components/Service";
@@ -21,8 +20,7 @@ const App = () => {
         <Nav />
         <Hero />
         <BookTravel />
-        <Tourist />
-        <About />
+        <AboutMe />
         <Budget />
         <Explore />
         <Service />
