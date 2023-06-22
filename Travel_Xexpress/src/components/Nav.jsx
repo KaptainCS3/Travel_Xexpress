@@ -47,9 +47,9 @@ const Nav = () => {
         </div>
       </section>
       <section className="sm:w-full md:w-full lg:w-[82.5%] mx-auto">
-        <nav className="flex flex-col sm:w-full sm:shadow-none sm:py-4 sm:px-8 sm:mt-0 p sm:relative md:relative md:mt-0 md:w-full py-4 px-8 md:shadow-none lg:w-[82.5%] lg:flex-row mx-auto justify-between lg:py-4 lg:px-10 absolute -mt-12 z-50 bg-white shadow">
+        <nav className="flex flex-col sm:w-full sm:shadow-none sm:py-4 sm:px-8 sm:mt-0 p sm:relative md:relative md:mt-0 md:w-full py-4 px-8 md:shadow-none lg:w-[82.5%] lg:flex-row mx-auto justify-between lg:py-8 lg:px-10 absolute lg:top-0 mt-12 z-50 bg-white shadow">
           <div className="sm:flex justify-between md:justify-between md:flex">
-            <h1 className="hero">
+            <h1 className="hero uppercase">
               Travel
               <span className="text-[#7AB730]">er</span>
             </h1>
@@ -62,12 +62,12 @@ const Nav = () => {
           </div>
           <div className="flex items-start sm:hidden md:hidden lg:items-center lg:justify-between lg:mt-0 lg:flex-row lg:w-1/2">
             <p>Home</p>
-            <p>About</p>
-            <p>Services</p>
-            <p>Tour Packages</p>
+            <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/package">Tour Packages</Link>
             <div>
               <p>Pages</p>
-              <div>
+              <div className="hidden">
                 <p>Blog Grid</p>
                 <p>Blog Detail</p>
                 <p>Destination</p>
