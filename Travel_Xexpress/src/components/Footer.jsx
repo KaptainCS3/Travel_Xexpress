@@ -55,35 +55,35 @@ const Footer = () => {
                 our services
               </h3>
               <div className="text-[#ffffff50]">
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">About</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">
                     Destination
                   </span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Services</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Packages</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Guides</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">
                     Testimonial
                   </span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Blog</span>{" "}
                 </p>
@@ -96,35 +96,35 @@ const Footer = () => {
                 usefull links
               </h3>
               <div className="text-[#ffffff50]">
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">About</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">
                     Destination
                   </span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Services</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Packages</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Guides</span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">
                     Testimonial
                   </span>{" "}
                 </p>
-                <p className="cursor-pointer lg:py-[0.2rem]">
+                <p className="cursor-pointer lg:py-[0.2rem] sm:py-[0.3rem]">
                   <FontAwesomeIcon icon={faAngleRight} className="" />{" "}
                   <span className="ml-[.25rem] hover:underline">Blog</span>{" "}
                 </p>
@@ -135,15 +135,15 @@ const Footer = () => {
                 contact us
               </h3>
               <div className="text-[#ffffff50]">
-                <p className="lg:py-[0.2rem]">
+                <p className="lg:py-[0.2rem] sm:py-[0.4rem]">
                   <FontAwesomeIcon icon={faMapMarkerAlt} className="" />{" "}
                   <span className="ml-[.25rem]">123 Street, New York, USA</span>{" "}
                 </p>
-                <p className="lg:py-[0.2rem]">
+                <p className="lg:py-[0.2rem] sm:py-[0.4rem]">
                   <FontAwesomeIcon icon={faPhone} className="" />{" "}
                   <span className="ml-[.25rem]">+012 345 67890</span>{" "}
                 </p>
-                <p className="lg:py-[0.2rem]">
+                <p className="lg:py-[0.2rem] sm:py-[0.4rem]">
                   <FontAwesomeIcon icon={faEnvelope} className="" />{" "}
                   <span className="ml-[.25rem]">info@example.com</span>{" "}
                 </p>
@@ -156,7 +156,7 @@ const Footer = () => {
                   <div className="w-full">
                     <input
                       type="email"
-                      className="w-3/4 bg-white outline-none p-3 form text-[#999]"
+                      className="w-3/4 bg-white outline-none p-3 form_focus text-[#999]"
                       name="email"
                       placeholder="Your Email"
                       // value={contactUs.email}
