@@ -9,11 +9,11 @@ const FindMe = () => {
         <div className="w-full p-8 bg-white">
           <input
             type="email"
-            className="w-3/4 outline-none border p-[0.7rem] form_focus text-[#999] md:w-[90%] sm:w-[90%]"
+            className="w-3/4 outline-none border p-[0.7rem] form_focus text-[#999] md:w-[90%] sm:w-[80%]"
             name="email"
             placeholder="Your Email"
           />
-          <button className="w-1/4 py-3 text-white bg-[#7AB730] md:w-[10%] sm:w-[10%]">
+          <button className="w-1/4 py-3 text-white bg-[#7AB730] md:w-[10%] sm:w-[18%]">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </button>
         </div>
