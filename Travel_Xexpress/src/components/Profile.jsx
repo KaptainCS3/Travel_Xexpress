@@ -23,19 +23,19 @@ const Profile = () => {
             sit no ut est ipsum erat kasd amet elitr
           </p>
         <div className="flex w-[60%] justify-between items-center text-[#7AB730] pt-4">
-          <div>
+          <div className="hover:text-[#5F8F25] cursor-pointer">
             <FontAwesomeIcon icon={faFacebookF} />
           </div>
-          <div>
+          <div className="hover:text-[#5F8F25] cursor-pointer">
             <FontAwesomeIcon icon={faTwitter} />
           </div>
-          <div>
+          <div className="hover:text-[#5F8F25] cursor-pointer">
             <FontAwesomeIcon icon={faLinkedinIn} />
           </div>
-          <div>
+          <div className="hover:text-[#5F8F25] cursor-pointer">
             <FontAwesomeIcon icon={faInstagram} />
           </div>
-          <div>
+          <div className="hover:text-[#5F8F25] cursor-pointer">
             <FontAwesomeIcon icon={faYoutube} />
           </div>
         </div>
