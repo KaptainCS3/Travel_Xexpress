@@ -4,18 +4,21 @@ const Explore = () => {
   // mb-8 after:content-[''] after:w-[80%] after:h-[68%] after:border-[0.1rem] after:bg-black after:opacity-[30%] after:absolute after:right-0 after:left-0 after:top-[16%] after:mx-auto
   return (
     <>
-      <section className="m-8 py-8">
+      <section className="m-8 py-8 lg:w-[82.5%] mx-auto">
         <div className="flex flex-col justify-center items-center">
-          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-2">
+          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-4">
             DESTINATION
           </h3>
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
             Explore Top Destination
           </h2>
-          <div className="cursor-pointer md:flex flex-wrap justify-between lg:flex lg:flex-wrap lg:justify-between">
+          <div className="cursor-pointer sm:mx-8 md:mx-16 md:flex flex-wrap justify-between lg:flex lg:flex-wrap lg:justify-between">
             {explore.map((item) => {
               return (
-                <div key={item.id} className="relative w-full mb-8">
+                <div
+                  key={item.id}
+                  className="relative w-full mb-10 md:w-[48%] lg:w-[31%]"
+                >
                   <div className="destination relative overflow-hidden">
                     <img
                       src={item.images}
