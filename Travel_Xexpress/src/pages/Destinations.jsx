@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import Header from "../components/Header";
 import BookTravel from "../components/BookTravel";
 import Explore from "../components/Explore";
+import ScrollTop from "../components/ScrollTop";
 import Footer from "../components/Footer";
 const Destinations = ({ header }) => {
   return (
@@ -13,6 +14,7 @@ const Destinations = ({ header }) => {
       <div className="mt-48 mb-24">
         <Explore />
       </div>
+      <ScrollTop />
       <Footer />
     </div>
   );
