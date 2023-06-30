@@ -1,15 +1,20 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Header from "../components/Header";
+import BookTravel from "../components/BookTravel";
 import AboutMe from "../components/AboutMe";
 import Budget from "../components/Budget";
 import Offer from "../components/Offer";
 import Guide from "../components/Guide";
+import ScrollTop from "../components/ScrollTop";
 import Footer from "../components/Footer";
-const AboutUs = () => {
+const AboutUs = ({ header }) => {
   return (
     <div className="bg-[#F3F3F3] font">
       <Nav />
-      <div className="mb-32">
+      <Header header={header} />
+      <BookTravel />
+      <div className="">
         <AboutMe />
       </div>
       <div className="mb-32">
@@ -19,9 +24,9 @@ const AboutUs = () => {
         <Offer />
       </div>
       <div className="mb-24">
-
-      <Guide />
+        <Guide />
       </div>
+      <ScrollTop />
       <Footer />
     </div>
   );
