@@ -3,8 +3,9 @@ import Nav from "../components/Nav";
 import Header from "../components/Header";
 import BookTravel from "../components/BookTravel";
 import Guide from "../components/Guide";
-import Footer from "../components/Footer";
 import GuideList from "../components/GuideList";
+import ScrollTop from "../components/ScrollTop";
+import Footer from "../components/Footer";
 const Guides = ({ header }) => {
   return (
     <div className="bg-[#F3F3F3] font">
@@ -20,6 +21,7 @@ const Guides = ({ header }) => {
           <GuideList />
         </div>
       </section>
+      <ScrollTop />
       <Footer />
     </div>
   );
