@@ -112,23 +112,23 @@ const Package = () => {
 
   return (
     <div>
-      <section className="m-8 py-8">
+      <section className="m-8 py-8 lg:w-[82.5%] mx-auto">
         <div className="flex flex-col justify-center items-center">
-          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-2">
-            SERVICES
+          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-4">
+            PACKAGES
           </h3>
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
-            Tours & Travel Services
+            Perfect Tour Packages
           </h2>
-          <div className="cursor-pointer sm:max-w-[500px] md:flex">
+          <div className="cursor-pointer sm:mx-8 sm:max-w-[500px] md:mx-12 md:flex md:flex-wrap md:justify-between lg:flex lg:flex-wrap lg:justify-between">
             {travelPackage.map((item) => {
               return (
                 <div
                   key={item.id}
-                  className="mb-8 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white srv transition-all duration-500 delay-0 ease-linear"
+                  className="mb-10 flex w-full flex-col justify-center items-center hover:shadow-2xl bg-white srv transition-all duration-500 delay-0 ease-linear md:w-[48%] lg:w-[31%]"
                 >
                   <div className="transition-all duration-500 delay-0 ease-linear">
-                    <img src={item.src} alt="" className="h-full" />
+                    <img src={item.src} alt="" className="max-w-full h-auto align-middle" />
                   </div>
                   <div className="my-5 px-5">
                     <div className="flex justify-between mb-4">
