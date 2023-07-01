@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 const BlogPost = () => {
   return (
     <>
-      <section className="m-8 py-8 lg:w-[82.5%] mx-auto">
+      <section className="m-8 py-8 lg:w-[82.5%] mx-auto md:mx-12">
         <div className="flex flex-col justify-center items-center">
           <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-4">
             our blog
