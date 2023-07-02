@@ -9,28 +9,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const GuideList = () => {
   const guide = [
     {
+      id: 1,
       src: "/assets/team-1.jpg",
       uName: "Guide Name",
       passion: "Designation",
     },
     {
+      id: 2,
       src: "/assets/team-2.jpg",
       uName: "Guide Name",
       passion: "Designation",
     },
     {
+      id: 3,
       src: "/assets/team-3.jpg",
       uName: "Guide Name",
       passion: "Designation",
     },
     {
+      id: 4,
       src: "/assets/team-4.jpg",
       uName: "Guide Name",
       passion: "Designation",
     },
   ];
   return (
-    <div className="md:flex md:w-full md:flex-wrap md:justify-between lg:flex lg:w-full lg:justify-between">
+    <div className="sm:px-8 md:flex md:px-12 md:w-full md:flex-wrap md:justify-between lg:flex lg:w-full lg:justify-between">
       {guide.map((item) => {
         return (
           <div
