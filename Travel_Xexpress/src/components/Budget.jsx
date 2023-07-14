@@ -34,10 +34,10 @@ const Budget = () => {
   ];
   return (
     <>
-      <section className="m-8 py-8">
+      <section className="m-8 py-8 md:flex lg:flex lg:justify-between lg:w-[82.5%] mx-auto md:mx-12">
         {budget.map((items) => {
           return (
-            <div className="flex mb-5 justify-between">
+            <div className="flex mb-5 justify-between lg:w-[32%] sm:mx-8">
               <div className="w-[100px] h-[100px] px-[2.5rem] py-8 mr-4 bg-[#7AB730] flex justify-center items-center">
                 <FontAwesomeIcon
                   icon={items.src}

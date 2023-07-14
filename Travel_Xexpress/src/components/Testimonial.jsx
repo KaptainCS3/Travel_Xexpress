@@ -5,7 +5,7 @@ const Testimonial = () => {
     <>
       <section className="m-8 py-12">
         <div className="flex flex-col justify-center items-center">
-          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-2">
+          <h3 className="tracking-[0.4rem] line-h font-medium uppercase text-[#7AB730] mb-4">
             testimonial
           </h3>
           <h2 className="font-bold text-[#212121] hero text-center mx-2 mb-8">
