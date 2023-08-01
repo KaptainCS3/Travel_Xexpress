@@ -156,13 +156,13 @@ const Footer = () => {
                   <div className="w-full">
                     <input
                       type="email"
-                      className="w-3/4 bg-white outline-none p-3 form_focus text-[#999]"
+                      className="w-3/4 bg-white outline-none p-3 form_focus text-[#999] lg:w-[70%]"
                       name="email"
                       placeholder="Your Email"
                       // value={contactUs.email}
                       // onChange={handleChange}
                     />
-                    <button className="w-1/4 py-3 text-white bg-[#7AB730]">
+                    <button className="w-1/4 py-3 text-white bg-[#7AB730] lg:w-[30%]">
                       Sign Up
                     </button>
                   </div>
