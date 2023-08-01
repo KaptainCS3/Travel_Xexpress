@@ -8,7 +8,7 @@ const Offer = () => {
       <section className="bg_img lg:pb-2">
         <div className="m-8 py-16 flex items-center lg:w-[82.5%] mx-auto">
           <div className="lg:flex lg:justify-between">
-            <div className="lg:w-[60%] lg:pr-16 lg:pt-16">
+            <div className="lg:w-[60%] lg:pr-16 lg:pt-16 md:px-12 sm:px-8">
               <h3 className="tracking-[0.4rem] line-h uppercase text-[#7AB730] mb-2 mt-6">
                 mega offer
               </h3>
@@ -46,7 +46,7 @@ const Offer = () => {
                 </p>
               </div>
             </div>
-            <form className="mt-12 lg:w-[40%] lg:mt-8">
+            <form className="mt-12 lg:w-[40%] lg:mt-8 md:px-12 sm:px-8">
               <h1 className="py-8 text-center bg-[#7AB730] text-white hero">
                 Sign Up Now
               </h1>
