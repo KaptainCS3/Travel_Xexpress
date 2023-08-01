@@ -8,7 +8,7 @@ const Offer = () => {
       <section className="bg_img lg:pb-2">
         <div className="m-8 py-16 flex items-center lg:w-[82.5%] mx-auto">
           <div className="lg:flex lg:justify-between">
-            <div className="lg:w-[60%] lg:pr-16 lg:pt-16">
+            <div className="lg:w-[60%] lg:pr-16 lg:pt-16 md:px-12 sm:px-8">
               <h3 className="tracking-[0.4rem] line-h uppercase text-[#7AB730] mb-2 mt-6">
                 mega offer
               </h3>
@@ -46,12 +46,12 @@ const Offer = () => {
                 </p>
               </div>
             </div>
-            <form className="mt-12 lg:w-[40%] lg:mt-8">
+            <form className="mt-12 lg:w-[40%] lg:mt-8 md:px-12 sm:px-8">
               <h1 className="py-8 text-center bg-[#7AB730] text-white hero">
                 Sign Up Now
               </h1>
               <div className="bg-white py-12">
-                <div className="mx-12">
+                <div className="mx-12 sm:mx-8">
                   <input
                     placeholder="Your name"
                     type="text"
@@ -59,16 +59,16 @@ const Offer = () => {
                     className="w-full py-3 mb-4 px-4 outline-none border form_focus"
                   />
                 </div>
-                <div className="mx-12">
+                <div className="mx-12 sm:mx-8">
                   <input
                     placeholder="Your email"
                     type="email"
                     name="email"
-                    className="w-full py-3 mb-4 border px-4 outline-none form_focus"
+                    className="w-full py-3 mb-4 border px-2 outline-none form_focus"
                   />
                 </div>
-                <div className="mx-12">
-                  <select className="w-full py-3 mb-4 border px-3 form_focus">
+                <div className="mx-12 sm:mx-8">
+                  <select className="bg-white w-full py-3 mb-4 border px-3 form_focus">
                     <option className="text-[#212121]">
                       Select a destination
                     </option>
@@ -78,7 +78,7 @@ const Offer = () => {
                     <option className="text-[#212121]">Destion 4</option>
                   </select>
                 </div>
-                <div className="mx-12">
+                <div className="mx-12 sm:mx-8">
                   <button className="py-3 w-full text-white bg-[#7AB730]">
                     Sign Up Now
                   </button>

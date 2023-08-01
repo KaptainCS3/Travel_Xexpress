@@ -1,32 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.hero{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    /* text-transform: uppercase; */
-    font-size: calc(1.275rem + 1.5vw);
-    line-height: 2rem;
-}
-.shadow{
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-}
-.border_{
-    border-top: 1px solid #ffffff20;
-}
-.font{
-   font-family: "Poppins", sans-serif; 
-}
-.line_h{
-    line-height: 1.5
+.hero {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: calc(1.275rem + 1.5vw);
+  line-height: 2rem;
 }
 
-
-.destination img, .guide img {
-  transition: .5s;
+.hero_header {
+  font-size: calc(1.275rem + 0.3vw);
 }
-.destination:hover img{
+.hero_content {
+  font-size: calc(1.575rem + 3.2vw);
+}
+
+.shadow {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+.modal {
+  /* display: ; Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+.border_ {
+  border-top: 1px solid #ffffff20;
+}
+.font {
+  font-family: "Poppins", sans-serif;
+}
+.line_h {
+  line-height: 1.5;
+}
+
+.destination img,
+.guide img {
+  transition: 0.5s;
+}
+.destination:hover img {
   transform: scale(1.3);
 }
 
@@ -34,23 +53,23 @@
   transform: scale(1.2);
 }
 
-.destination-overlay {        
-    width: 80%; 
-    margin: 0 auto;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    background: rgba(0, 0, 0, 0.3);
-    transition: .5s;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+.destination-overlay {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.destination:hover .destination-overlay{
+.destination:hover .destination-overlay {
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -59,57 +78,96 @@
   width: 100%;
 }
 
-.social-icon{
-    opacity: 0;
+.social-icon {
+  opacity: 0;
 }
 
-.guide:hover .social-icon{
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    transition: .5s;
-    bottom: 2rem;
-    transition: all ease;
+.guide:hover .social-icon {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: 0.5s;
+  bottom: 2rem;
+  transition: all ease;
 }
 
 /* transition on hover guide page */
 .social-icon:hover div:first-child {
   opacity: 1;
   margin-top: 0;
-  transition: .3s 0s;
+  transition: 0.3s 0s;
 }
 .social-icon:hover div:nth-child(2) {
   opacity: 1;
   margin-top: 0;
-  transition: .3s .05s;
+  transition: 0.3s 0.05s;
 }
 
 .social-icon:hover div:nth-child(3) {
   opacity: 1;
   margin-top: 0;
-  transition: .3s .1s;
+  transition: 0.3s 0.1s;
 }
 
 .social-icon:hover div:nth-child(4) {
   opacity: 1;
   margin-top: 0;
-  transition: .3s .15s;
+  transition: 0.3s 0.15s;
 }
 
-
-.srv:hover .srv_con{
-    border: 2.4px solid transparent;
-    background: #71AB30;
-    color: white;
+.srv:hover .srv_con {
+  border: 2.4px solid transparent;
+  background: #71ab30;
+  color: white;
 }
 
-.bg_img{
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080), url('../public/assets/carousel-1.jpg'), no-repeat center center;
-    background-size: cover;
-    /* height: 100vh; */
+.bg_img {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080),
+    url("../public/assets/carousel-1.jpg"), no-repeat center center;
+  background-size: cover;
+  /* height: 108vh;
+    min-height: 100%; */
 }
- .form:focus {
-        box-shadow: 0 0 0 .25rem #7AB73025;
-        color: #495057;
-        outline: 0
+
+.form_focus:focus {
+  color: #495057;
+  border-color: #b8e087;
+  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.25);
+  outline: 0;
+}
+
+.bg-image-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/assets/carousel-2.jpg), no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.bg_opacity {
+  background: rgba(0, 0, 0, 0.5);
+}
+.header {
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: calc(1.475rem + 2.7vw);
+}
+.dropdown__list {
+  display: none;
+}
+
+.dropdown:hover .dropdown__list {
+  display: block;
+}
+
+#nav_ms_md #items_sm_md a.active,#nav_ms_md #nav_lg a.active{
+  color: #5f8f25;
+}
+
+#nav_ms_md #items_sm_md span:focus {
+  color: #5f8f25;
+}
+
+#nav_ms_md #items_sm_md .drop a.active {
+  background: #5f8f25;
+  color: white;
 }

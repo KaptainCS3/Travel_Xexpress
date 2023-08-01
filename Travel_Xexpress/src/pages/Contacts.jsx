@@ -1,9 +1,10 @@
 import React from "react";
-import Contact from "../components/Contact";
 import Nav from "../components/Nav";
-import Footer from "../components/Footer";
-import BookTravel from "../components/BookTravel";
 import Header from "../components/Header";
+import BookTravel from "../components/BookTravel";
+import Contact from "../components/Contact";
+import ScrollTop from "../components/ScrollTop";
+import Footer from "../components/Footer";
 
 const Contacts = ({ header }) => {
   return (
@@ -14,6 +15,7 @@ const Contacts = ({ header }) => {
       <div className="lg:mb-32 lg:mt-64">
         <Contact />
       </div>
+      <ScrollTop />
       <Footer />
     </div>
   );

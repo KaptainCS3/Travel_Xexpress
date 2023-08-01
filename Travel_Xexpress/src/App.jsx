@@ -12,14 +12,19 @@ import Offer from "./components/Offer";
 import Guide from "./components/Guide";
 import Testimonial from "./components/Testimonial";
 import BlogPost from "./components/BlogPost";
+import ScrollTop from "./components/ScrollTop";
 import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
       <div className="bg-[#F3F3F3] font">
         <Nav />
-        <Hero />
-        <BookTravel />
+        <div className="relative">
+          <Hero autoSlide={true} autoSlideInterval={5000} />
+          <div className="lg:-bottom-[7.8rem] relative md:-bottom-[9.4rem]">
+            <BookTravel />
+          </div>
+        </div>
         <AboutMe />
         <Budget />
         <Explore />
@@ -29,6 +34,7 @@ const App = () => {
         <Guide />
         <Testimonial />
         <BlogPost />
+        <ScrollTop />
         <Footer />
       </div>
     </>
