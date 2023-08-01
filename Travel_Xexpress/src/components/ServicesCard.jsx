@@ -34,7 +34,7 @@ const ServicesCard = () => {
       ];
   return (
     <>
-      <section className="cursor-pointer sm:max-w-[500px] md:flex md:flex-wrap md:justify-between md:mx-12 lg:mt-8 lg:flex lg:justify-between lg:w-full">
+      <section className="sm:px-8 cursor-pointer md:flex md:flex-wrap md:justify-between md:mx-12 lg:mt-8 lg:flex lg:justify-between lg:w-full">
         {tour.map((item) => {
           return (
             <div
