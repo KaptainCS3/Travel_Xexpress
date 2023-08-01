@@ -63,11 +63,11 @@ const Hero = ({ autoSlide = true, autoSlideInterval = 5000 }) => {
               <h1 className="hero_header font-[600] text-white uppercase sm:text-xl">
                 {title}
               </h1>
-              <h3 className="hero_content font-bold text-white sm:text-3xl">
+              <h3 className="hero_content font-bold text-white sm:text-2xl">
                 {content}
               </h3>
               <div className="">
-                <button className="py-4 px-10 bg-[#7AB730] text-white hover:bg-[#5F8F25] sm:px-4 sm:py-3 sm:mt-4">
+                <button className="py-4 px-10 bg-[#7AB730] text-white hover:bg-[#5F8F25] sm:px-4 sm:py-3 sm:mt-1">
                   Book Now
                 </button>
               </div>

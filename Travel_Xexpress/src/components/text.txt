@@ -8,3 +8,36 @@ https://github.com/KaptainCS3/Crypto_Explore.git
             <Link to="" className="hover:text-[#16D5FF] cursor-pointer">Pages</Link>
             <Link to="" className="hover:text-[#16D5FF] cursor-pointer">Contact</Link>
             </div>
+
+
+
+
+ <>
+      {/* <section className="sm:w-full overflow-hidden relative">
+        <div className="w-full flex">
+          <div className="w-full flex">
+            {carouselList.map((el) => {
+              return (
+                <> */}
+                  {/* <img src={el.imageSrc} alt="" />
+                  <div className="absolute top-0 left-0 flex h-full justify-between px-10 items-center w-full">
+                    <div className="cursor-pointer px-4 font-bold text-3xl py-3 bg-red-100">
+                      <FontAwesomeIcon icon={faAngleLeft} />
+                    </div> */}
+                    {/* <div className="flex justify-center w-3/4 h-full items-center flex-col uppercase">
+                      <h1 className="lg:hero_header font-[600] text-white">
+                        {el.title}
+                      </h1>
+                      <h3 className="lg:hero_content font-bold text-white">{el.content}</h3>
+                    </div> */}
+                    {/* <div className="cursor-pointer px-4 font-bold text-3xl py-3 bg-red-100">
+                      <FontAwesomeIcon icon={faAngleRight} />
+                    </div>
+                  </div>
+                </>
+              );
+            })} */}
+          {/* </div>
+        </div>
+      </section> */}
+    </>

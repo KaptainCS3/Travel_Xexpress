@@ -8,7 +8,7 @@ const BookTravel = () => {
           <form className="px-8 md:flex md:justify-between md:w-full md:items-center lg:flex lg:justify-between lg:w-full lg:items-center">
             <div className="sm:w-full md:w-[75%] md:flex md:justify-between md:items-center lg:w-[85%] lg:flex lg:justify-between lg:items-center">
               <div className="md:w-[22%] lg:w-[22%]">
-                <select className="w-full py-3 sm:mb-4 border appearance-none px-4 outline-none form_focus md:mb-0 lg:mb-0">
+                <select className="bg-white w-full py-3 sm:mb-4 border appearance-none px-4 outline-none form_focus md:mb-0 lg:mb-0">
                   <option value="NA">Destination</option>
                   <option value="destination 1">Destination 1</option>
                   <option value="destination 2">Destination 2</option>
@@ -19,19 +19,19 @@ const BookTravel = () => {
               <div className="md:w-[22%] lg:w-[22%]">
                 <input
                   type="date"
-                  className="w-full py-3 border sm:mb-4 px-4 outline-none form_focus md:mb-0 lg:mb-0"
+                  className="bg-white w-full py-3 border sm:mb-4 px-4 outline-none form_focus md:mb-0 lg:mb-0"
                   placeholder="Depart Date"
                 />
               </div>
               <div className="md:w-[22%] lg:w-[22%]">
                 <input
                   type="date"
-                  className="w-full py-3 border sm:mb-4 px-4 outline-none form_focus md:mb-0 lg:mb-0"
+                  className="bg-white w-full py-3 border sm:mb-4 px-4 outline-none form_focus md:mb-0 lg:mb-0"
                   placeholder="Return Date"
                 />
               </div>
               <div className="md:w-[22%] lg:w-[22%]">
-                <select className="w-full py-3 border appearance-none px-4 outline-none form_focus lg:mb-0">
+                <select className="bg-white w-full py-3 border appearance-none px-4 outline-none form_focus lg:mb-0">
                   <option>Duration 1</option>
                   <option>Duration 2</option>
                   <option>Duration 3</option>
