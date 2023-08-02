@@ -20,7 +20,7 @@ const BlogDetail = () => {
                     </div>
                     <div className="transition-all duration-500 delay-0 ease-linear w-full">
                       <img
-                        src="../../public/assets/blog-1.jpg"
+                        src="/assets/blog-1.jpg"
                         alt=""
                         className="h-full w-full"
                       />
@@ -60,7 +60,7 @@ const BlogDetail = () => {
                         Est dolor lorem et ea
                       </h3>
                       <img
-                        src="../../public/assets/blog-2.jpg"
+                        src="/assets/blog-2.jpg"
                         alt=""
                         className="w-1/2 mr-5 float-left"
                       />
@@ -84,7 +84,7 @@ const BlogDetail = () => {
                         Est dolor lorem et ea
                       </h3>
                       <img
-                        src="../../public/assets/blog-3.jpg"
+                        src="/assets/blog-3.jpg"
                         alt=""
                         className="w-1/2 ml-5 float-right"
                       />

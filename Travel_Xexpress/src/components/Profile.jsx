@@ -13,7 +13,7 @@ const Profile = () => {
       <section className="md:flex md:flex-wrap md:justify-between lg:flex lg:justify-between lg:w-full">
         <div className="bg-white px-7 py-[2.5rem] mb-8 flex w-full flex-col justify-center items-center md:max-w-full lg:w-full">
           <div className="p-4">
-            <img src="../../public/assets/user.jpg" className="w-full h-auto" />
+            <img src="/assets/user.jpg" className="w-full h-auto" />
           </div>
           <h4 className="text-xl mt-4 text-[#71AB30] text-[1.8rem] font-bold">
             John Doe
