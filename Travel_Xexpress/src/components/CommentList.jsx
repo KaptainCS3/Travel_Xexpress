@@ -5,7 +5,7 @@ const CommentList = () => {
     <div className="flex">
       <div className="mr-4 mt-2">
         <img
-          src="../../public/assets/user.jpg"
+          src="/assets/user.jpg"
           alt="John Doe"
           className="w-12 h-auto"
         />
