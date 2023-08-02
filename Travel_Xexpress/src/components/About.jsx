@@ -14,10 +14,10 @@ const About = () => {
           </p>
           <div className="flex my-6">
             <div className="pr-4">
-              <img src="../../public/assets/about-1.jpg" alt="" />
+              <img src="/assets/about-1.jpg" alt="" />
             </div>
             <div className="pl-4">
-              <img src="../../public/assets/about-2.jpg" alt="" />
+              <img src="/assets/about-2.jpg" alt="" />
             </div>
           </div>
           <button className="bg-[#7AB730] px-4 py-3 text-white">
