@@ -10,7 +10,7 @@ const RecentPost = () => {
         <div className="w-full h-[120px] bg-white flex justify-between my-2">
           <div className="h-full">
             <img
-              src="../../public/assets/blog-100x100.jpg"
+              src="/assets/blog-100x100.jpg"
               className="h-full object-cover"
             />
           </div>
@@ -26,7 +26,7 @@ const RecentPost = () => {
         <div className="w-full h-[120px] bg-white flex justify-between my-2">
           <div className="h-full">
             <img
-              src="../../public/assets/blog-100x100.jpg"
+              src="/assets/blog-100x100.jpg"
               className="h-full object-cover"
             />
           </div>
@@ -42,7 +42,7 @@ const RecentPost = () => {
         <div className="w-full h-[120px] bg-white flex justify-between my-2">
           <div className="h-full">
             <img
-              src="../../public/assets/blog-100x100.jpg"
+              src="/assets/blog-100x100.jpg"
               className="h-full object-cover"
             />
           </div>
